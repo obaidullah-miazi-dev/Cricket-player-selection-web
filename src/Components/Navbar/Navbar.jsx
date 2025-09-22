@@ -23,7 +23,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-gray-500 font-medium">
+                <ul className="menu menu-horizontal px-1 text-gray-500 font-medium text-lg">
                     <li><a>Home</a></li>
                     <li><a>Fixture</a></li>
                     <li><a>Teams</a></li>
