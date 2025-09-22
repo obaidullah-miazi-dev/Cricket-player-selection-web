@@ -9,9 +9,9 @@ const AvailablePlayers = ({ playersPromise }) => {
 
 
         {
-            players.map(player => <div className="mb-8 md:mx-0 mx-auto md:mb-0 card bg-base-100  border-2 border-gray-100 p-4">
+            players.map(player => <div className="mb-8 md:mx-0 mx-5 md:mb-0 card bg-base-100  border-2 border-gray-100 p-4">
                 <figure>
-                    <img className='rounded-xl md:h-[350px] h-[200px] w-full object-cover'
+                    <img className='rounded-xl md:h-[350px] h-[250px] w-full md:object-cover '
                         src={player.image}
                         alt="Shoes" />
                 </figure>
