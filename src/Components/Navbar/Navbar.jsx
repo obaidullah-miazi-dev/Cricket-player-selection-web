@@ -1,7 +1,7 @@
 import React from 'react';
 import Navlogo from '../../assets/logo.png'
 import Navcoin from '../../assets/coin.png'
-const Navbar = () => {
+const Navbar = ({availableBalance}) => {
     return (
         <div className="navbar mt-5 md:w-11/12 mx-auto">
             <div className="navbar-start">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end space-x-2">
                 <a className='border-2 border-gray-200 flex items-center gap-2 py-2 md:px-4 px-2 bg-white rounded-xl'>
-                    <span className='font-semibold text-lg'>600000</span>
+                    <span className='font-semibold text-lg'>{availableBalance}</span>
                     <span className='font-bold text-lg'>Coin</span>
                     <img className='w-full h-full' src={Navcoin} alt="" />
                 </a>
