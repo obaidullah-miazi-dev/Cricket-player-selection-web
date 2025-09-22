@@ -1,14 +1,20 @@
 
 import React, { useState } from 'react';
 
-const PlayerCard = ({ player, setAvailableBalance, availableBalance }) => {
+const PlayerCard = ({ player, setAvailableBalance, availableBalance,setPurchasedPlayers,purchasedPlayers }) => {
     const handleSelection = (player) => {
         if(availableBalance<player.biddingPrice){
             alert('not enough coin')
             return
         }
+        if(purchasedPlayers.length===6){
+            alert('already 6 players selected')
+            return
+        }
         setIsSelected(true)
         setAvailableBalance(availableBalance - player.biddingPrice)
+
+        setPurchasedPlayers([...purchasedPlayers,player])
     }
     const [isSelected, setIsSelected] = useState(false)
     return (
