@@ -7,6 +7,7 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm medium",
+    "rating": 4.9,
     "biddingPrice": "120000000"
   },
   {
@@ -17,6 +18,7 @@
     "role": "Allrounder",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm leg spin",
+    "rating": 4.5,
     "biddingPrice": "90000000"
   },
   {
@@ -27,6 +29,7 @@
     "role": "Allrounder",
     "battingType": "Left-hand bat",
     "bowlingType": "Right-arm fast-medium",
+    "rating": 4.7,
     "biddingPrice": "110000000"
   },
   {
@@ -37,6 +40,7 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm offbreak",
+    "rating": 4.8,
     "biddingPrice": "100000000"
   },
   {
@@ -47,6 +51,7 @@
     "role": "Allrounder",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm offbreak",
+    "rating": 4.4,
     "biddingPrice": "80000000"
   },
   {
@@ -57,6 +62,7 @@
     "role": "Bowler",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm fast",
+    "rating": 5.0,
     "biddingPrice": "100000000"
   },
   {
@@ -67,6 +73,7 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm offbreak",
+    "rating": 4.5,
     "biddingPrice": "90000000"
   },
   {
@@ -77,6 +84,7 @@
     "role": "Allrounder",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm fast",
+    "rating": 4.9,
     "biddingPrice": "70000000"
   },
   {
@@ -87,6 +95,7 @@
     "role": "Allrounder",
     "battingType": "Left-hand bat",
     "bowlingType": "Left-arm orthodox",
+    "rating": 5.0,
     "biddingPrice": "80000000"
   },
   {
@@ -97,6 +106,7 @@
     "role": "Batsman",
     "battingType": "Left-hand bat",
     "bowlingType": "Right-arm medium",
+    "rating": 4.8,
     "biddingPrice": "90000000"
   },
   {
@@ -107,6 +117,7 @@
     "role": "Bowler",
     "battingType": "Left-hand bat",
     "bowlingType": "Left-arm fast",
+    "rating": 4.7,
     "biddingPrice": "70000000"
   },
   {
@@ -117,6 +128,7 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm offbreak",
+    "rating": 4.6,
     "biddingPrice": "110000000"
   }
 ]
