@@ -5,7 +5,7 @@ const AvailablePlayers = ({ playersPromise }) => {
     const players = use(playersPromise)
     console.log(players)
     return (
-        <div className='md:w-11/12 mx-auto mt-10 md:grid grid-cols-3 gap-20'>
+        <div className='md:w-11/12 mx-auto mt-5 md:grid grid-cols-3 gap-20'>
 
 
         {
