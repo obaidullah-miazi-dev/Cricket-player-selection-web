@@ -1,0 +1,122 @@
+[
+  {
+    "playerId": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://i.ibb.co.com/23H9nDbb/Virat-Kohli-reignites-100-ton-debate-as-he-regains-form.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": "120000000"
+  },
+  {
+    "playerId": 2,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://i.ibb.co.com/bjMKw3Tj/383731-4.webp",
+    "role": "Allrounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm leg spin",
+    "biddingPrice": "90000000"
+  },
+  {
+    "playerId": 3,
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://i.ibb.co.com/hF2tcvtf/5fc51822a2798d8d96eb8dd7-benstokes-thumb-6.jpg",
+    "role": "Allrounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "biddingPrice": "110000000"
+  },
+  {
+    "playerId": 4,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://i.ibb.co.com/JjDTzgmR/skysports-babar-azam-pakistan-5798990.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "100000000"
+  },
+  {
+    "playerId": 5,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "image": "https://i.ibb.co.com/4RHTFDbZ/1e800fd3362d01708c7dc42c59d55708.jpg",
+    "role": "Allrounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "80000000"
+  },
+  {
+    "playerId": 6,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://i.ibb.co.com/21RfZb24/jasprit-bumrah.webp",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "100000000"
+  },
+  {
+    "playerId": 7,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "image": "https://i.ibb.co.com/twj2Dhm3/c9344245361c94af53fb77275f62c78b.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "90000000"
+  },
+  {
+    "playerId": 8,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "image": "https://i.ibb.co.com/RG5K0P5Z/image.jpg",
+    "role": "Allrounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "70000000"
+  },
+  {
+    "playerId": 9,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/93q8dKk9/icc-cricket-world-cup-england-v-bangladesh-03a0a540-9672-11e9-823a-db6d52757f3f.webp",
+    "role": "Allrounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm orthodox",
+    "biddingPrice": "80000000"
+  },
+  {
+    "playerId": 10,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://i.ibb.co.com/zTkNvMpj/eb591693483cbbd42a5aefe483d7d0be.jpg",
+    "role": "Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": "90000000"
+  },
+  {
+    "playerId": 11,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "image": "https://i.ibb.co.com/1FgQRBx/images.jpg",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": "70000000"
+  },
+  {
+    "playerId": 12,
+    "name": "KL Rahul",
+    "country": "India",
+    "image": "https://i.ibb.co.com/7JNmTZ7B/kl-rahul-ranking-for-batters-a80d7917fmi9qi3d.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "110000000"
+  }
+]
