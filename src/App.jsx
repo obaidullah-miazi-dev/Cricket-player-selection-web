@@ -6,6 +6,7 @@ import AvailablePlayers from './Components/AvailablePlayersList/AvailablePlayers
 import { Suspense, useState } from 'react'
 import SelectedPlayers from './Components/SelectedPlayersList/SelectedPlayers'
 import Newsletter from './Components/Newsletter/Newsletter'
+import Footer from './Components/Footer/Footer'
 
 const fetchPlayers = async () => {
   const res = await fetch('/players-data.json')
@@ -47,7 +48,7 @@ function App() {
       }
 
       <Newsletter></Newsletter>
-
+      <Footer></Footer>
 
     </>
   )
