@@ -5,6 +5,7 @@ import Banner from './Components/Banner-section/Banner'
 import AvailablePlayers from './Components/AvailablePlayersList/AvailablePlayers'
 import { Suspense, useState } from 'react'
 import SelectedPlayers from './Components/SelectedPlayersList/SelectedPlayers'
+import Newsletter from './Components/Newsletter/Newsletter'
 
 const fetchPlayers = async () => {
   const res = await fetch('/players-data.json')
@@ -45,7 +46,7 @@ function App() {
           <SelectedPlayers removePlayer={removePlayer} purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers}></SelectedPlayers>
       }
 
-
+      <Newsletter></Newsletter>
 
 
     </>
