@@ -3,7 +3,7 @@ import './Newsletter.css'
 
 const Newsletter = () => {
     return (
-        <div className='md:w-11/12 md:mx-auto mx-3 dark:border-white border-gray-200 border-2 rounded-xl p-6 mt-16 bg-[#c5c5c50a]'>
+        <div className='md:relative md:top-60 md:w-11/12 md:mx-auto mx-3 dark:border-white border-gray-200 border-2 rounded-xl p-6 bg-[#c5c5c50a]'>
             <div className='text-center bg-gradient rounded-xl py-20 space-y-4'>
                 <h1 className='font-bold text-4xl px-3 md:px-0'>Subscribe to our Newsletter</h1>
                 <p className='font-medium text-xl px-3 md:px-0 text-gray-600'>Get the latest updates and news right in your inbox!</p>
