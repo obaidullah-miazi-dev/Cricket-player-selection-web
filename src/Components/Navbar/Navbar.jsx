@@ -31,7 +31,7 @@ const Navbar = ({availableBalance}) => {
                 </ul>
             </div>
             <div className="navbar-end space-x-2">
-                <a className='border-2 border-gray-200 flex items-center gap-2 py-2 md:px-4 px-2 bg-white rounded-xl'>
+                <a className='border-2 border-gray-200 flex items-center gap-2 py-2 md:px-4 pr-6 pl-2 bg-white rounded-xl'>
                     <span className='font-semibold text-lg'>{availableBalance}</span>
                     <span className='font-bold text-lg'>Coin</span>
                     <img className='w-full h-full' src={Navcoin} alt="" />
