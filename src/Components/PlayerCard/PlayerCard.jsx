@@ -1,22 +1,33 @@
-import { ToastContainer,toast } from 'react-toastify';
+// import { ToastContainer,toast } from 'react-toastify';
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
-const PlayerCard = ({ player, setAvailableBalance, availableBalance,setPurchasedPlayers,purchasedPlayers }) => {
+const PlayerCard = ({ player, setAvailableBalance, availableBalance, setPurchasedPlayers, purchasedPlayers }) => {
     const handleSelection = (player) => {
-        if(availableBalance<player.biddingPrice){
+        if (availableBalance < player.biddingPrice) {
             toast('Insufficient Balance')
             return
         }
-        if(purchasedPlayers.length===6){
+        if (purchasedPlayers.length === 6) {
             toast('Already 6 players selected')
             return
         }
         setIsSelected(true)
-        toast('Player Purchased!!')
-        
+        toast.success('Player Purchased Succesful', {
+            style: {
+                border: '1px solid #713200',
+                padding: '16px',
+                color: '#713200',
+            },
+            iconTheme: {
+                primary: '#713200',
+                secondary: '#FFFAEE',
+            },
+        });
+
         setAvailableBalance(availableBalance - player.biddingPrice)
 
-        setPurchasedPlayers([...purchasedPlayers,player])
+        setPurchasedPlayers([...purchasedPlayers, player])
     }
     const [isSelected, setIsSelected] = useState(false)
     return (
@@ -63,7 +74,10 @@ const PlayerCard = ({ player, setAvailableBalance, availableBalance,setPurchased
 
             </div>
 
-            <ToastContainer></ToastContainer>
+            <Toaster
+                position="top-right"
+                reverseOrder={false}
+            />
         </div>
     );
 };
