@@ -2,7 +2,7 @@
 
 A React-based web application where users can assemble their Dream 11 Cricket Team by selecting players based on their roles, ratings, and prices.  
 
- Live Demo (https://cricket-player-selction.netlify.app/)
+ Live Demo https://cricket-player-selction.netlify.app/
 
 🚀 Features
 
@@ -62,7 +62,7 @@ npm run dev
 
 🌟 Future Improvements
 
-✅ Player selection limit (e.g., max 11 players)
+✅ Player selection limit (e.g., max 6 players)
 
 ✅ Save selected players in local storage
 
